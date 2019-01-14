@@ -7,9 +7,9 @@ EXEC = bin/tsv_hist.out
 
 SRCEXT = c
 
-DEBUG_FLAG = #-g
-OPTI_FLAGS = -O3
-WARN_FLAGS =
+DEBUG_FLAG = -g
+OPTI_FLAGS = #-O3
+WARN_FLAGS = -Wall -Wextra -Wpedantic
 CC_FLAGS = $(DEBUG_FLAG) $(OPTI_FLAGS) $(WARN_FLAGS) #-fsanitize=address,undefined
 
 # File names

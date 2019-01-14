@@ -21,7 +21,7 @@
 
 void getSizeInHumanReadableForm(long size, char* sizeString);
 void getMinMaxInChunk(char *buffer, int col, int ncols, double *min, double *max, long *processed_line_count, long *discarded_line_count);
-void sortDataIntoBins(char *buffer, int col, int ncols, double min, double max, double binwidth, double *value_bins, long *processed_line_count, long *discarded_line_count);
+void sortDataIntoBins(char *buffer, int col, int ncols, double min, double max, double binwidth, long *value_bins, long *processed_line_count, long *discarded_line_count);
 void getNumColsInLine(char *buffer, int *ncols);
 
 #endif
