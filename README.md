@@ -4,4 +4,4 @@ Generates histogram from data in Tab Separated Value (TSV) format. Data processi
 
 Compile using `make`
 
-Usage: `bin/tsv_hist.out <column> <num-bins> <TSVfile>`
+Usage: `./tsv_hist.out <column> <num-bins> <TSVfile>`
