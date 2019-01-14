@@ -3,7 +3,7 @@ CC = mpicc
 
 SRCDIR = src
 BUILDDIR = build
-EXEC = bin/tsv_hist.out
+EXEC = tsv_hist.out
 
 SRCEXT = c
 
